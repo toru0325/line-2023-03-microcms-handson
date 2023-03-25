@@ -65,5 +65,4 @@ export const deleteReservation = (microcmsClient, reservation: Reservation, succ
   .catch((err) => console.error(err));
 
   return reservation;
-  
 }
